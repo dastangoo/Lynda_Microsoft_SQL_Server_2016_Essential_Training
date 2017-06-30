@@ -1,0 +1,4 @@
+SELECT  MAX(Temperature) as MaxValue,
+		MIN(Temperature) as MinValue,
+		AVG(Temperature) as AvgValue
+FROM [Website].[VehicleTemperatures]

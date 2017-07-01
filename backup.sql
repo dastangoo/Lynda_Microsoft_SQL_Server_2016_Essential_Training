@@ -1,0 +1,2 @@
+BACKUP DATABASE DemoDB02
+TO DISK='C:\SQLbackups\DemoDB02.bak'

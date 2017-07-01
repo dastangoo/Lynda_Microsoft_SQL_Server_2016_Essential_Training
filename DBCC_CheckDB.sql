@@ -1,0 +1,1 @@
+DBCC CheckDB(WideWorldImporters)

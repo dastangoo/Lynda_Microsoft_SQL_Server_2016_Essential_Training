@@ -1,0 +1,8 @@
+<Person>
+	<firstName>
+		John
+	</firstName>
+	<lastName>
+		Smith
+	</lastName>
+</Person>

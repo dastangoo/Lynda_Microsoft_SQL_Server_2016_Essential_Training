@@ -1,0 +1,16 @@
+CREATE TABLE  [IndexTest](
+	[TextCol] [nchar](1000) NOT NULL,
+	[NumCol] [int] NOT NULL
+) ON [PRIMARY] 
+
+GO
+
+
+DECLARE @x int = 0
+
+WHILE @x < 10000
+BEGIN
+	INSERT INTO IndexTest(NumCol, TextCol)  VALUES(RAND()*500 , REPLICATE('a', 1000))
+
+	SET @x = @x + 1
+END
